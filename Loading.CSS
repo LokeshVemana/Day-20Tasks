@@ -1,0 +1,36 @@
+.Loading{
+    height: 150px;
+    width: 150px;
+    border:10px solid blue;
+    border-top:10px solid green;
+    border-bottom:10px solid yellow;
+    border-left:10px solid orange;
+    border-radius:50%;
+    position: relative;
+    left:520px;
+    top:100px;
+    animation: Loading 2s linear infinite ;
+}
+@keyframes Loading {
+    0%{
+        transform:rotate(0deg);
+        /* border-color:white; */
+    }
+    100%{
+        transform:rotate(360deg);
+        /* border-color:goldenrod; */
+    }  
+} 
+header{
+    text-align: center;
+    position: relative;
+    top:150px;
+}
+img{
+    position: relative;
+    bottom:100px;
+}
+body{
+    margin: 20px 20px 20px 20px;
+   background-color:snow
+}
